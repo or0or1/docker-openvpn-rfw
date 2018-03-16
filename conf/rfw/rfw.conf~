@@ -1,0 +1,92 @@
+#######################################################
+# /etc/rfw/rfw.conf
+#
+# Configuration file for rfw - remote firewall
+# See https://github.com/securitykiss-com/rfw
+#
+#######################################################
+
+[config]
+
+# Enable HTTPS server with authentication to listen to remote requests. Note that it is HTTPS only.
+outward.server
+
+# Port number the Internet facing HTTPS server is listening on.
+# If outward.server is not enabled this option is ignored.
+outward.server.port = 7393
+
+# Network interfaces defined by IP to which HTTPS server is binding.
+#
+# If set to 0.0.0.0 the rfw server binds (listens on) all interfaces.
+# Even in such case there is only one valid SSL secured url with single IP.
+# It's because rfw does not support Server Name Indication (SNI) which means
+# that rfw presents only one SSL certificate for single IP. That IP selected
+# while generating the certificate will determine the SSL secured URL.
+# While rfw can listen on all available IPs, an attempt to connect to a different IP, 
+# will generate 'ssl_error_bad_cert_domain' on client side.
+#
+# If outward.server is not enabled this option is ignored.
+outward.server.ip = 0.0.0.0
+
+# Path to HTTPS server certificate file
+outward.server.certfile = /etc/rfw/ssl/server.crt
+
+# Path to HTTPS server private key file
+outward.server.keyfile = /etc/rfw/ssl/server.key
+
+# Enable HTTP server to listen on localhost. Note that it is non-SSL HTTP only.
+local.server
+
+# Port number the localhost HTTP server is listening on.
+# If local.server is not enabled this option is ignored.
+local.server.port = 7390
+
+# Allow using HTTP GET requests instead of PUT, POST and DELETE
+# Useful for testing from the Internet browser and in production with HTTP clients of limited functionality
+non.restful
+
+
+# Use basic authentication for local server calls. If local.server is not enabled this option is ignored. By default not enabled.
+# local.server.authentication
+
+
+#TODO consider adding multiple user credentials
+# Basic authentication credentials. Must be defined if outward.server enabled or local.server.authentication enabled. Cannot be empty. 
+auth.username = weplay
+auth.password = 8b7f689dd35f4809c
+
+
+# Default expiry time of the iptables DROP/ACCEPT action
+# It may be given as:
+# - <number> representing number of seconds 
+# - <number>s representing number of seconds 
+# - <number>m representing number of minutes
+# - <number>h representing number of hours 
+# - <number>d representing number of days
+# Zero means that the action is applied permanently
+default.expire = 0
+
+
+
+# rfw has a client-server architecture but the typical rfw deployment is reverse of the usual web: single server - many clients scenario.
+# We expect many rfw servers and single master client which gives orders. IP address of that client should be in the whitelist. There are 2 reasons for that:
+#
+# - to prevent locking up yourself by accidentally blocking admin's IP
+# - to permit only selected IP addresses to be accepted on outward.server.port. It additionally authenticates the client and prevents DDOS attacks
+#
+# Any remote requests related to these IP addresses will be ignored.
+# Note that requests to HTTP local.server (via rfwc or from other process) do not consult the whitelist. 
+# 
+# You can include in this list other IPs you want to be ignored by rfw. 
+# In particular other fixed IP clients that need to have unconditional access to the server where rfw is deployed should be whitelisted.
+#
+# The whitelist file must contain at least one entry
+whitelist.file = /etc/rfw/white.list
+
+# The path to iptables.
+# It is important to specify full path to iptables in case when we redirect system wide iptables calls to rfwc (TODO see the use case number XXX).
+# In such case rfw needs to know the real location of iptables, most likely under a different name.
+# TODO in rfw add protection against infinite recrusive call of rfwc if iptables->rfwc. Check if real iptables and not rfwc
+iptables.path = iptables
+
+

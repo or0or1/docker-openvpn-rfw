@@ -1,0 +1,16 @@
+
+1, write hosts
+
+192.168.1.251   sadockers.aipai.com
+
+2, 复制当前目录
+
+3， 修改配置
+
+
+4,执行
+docker-compose pull
+
+docker-compose up -d
+
+

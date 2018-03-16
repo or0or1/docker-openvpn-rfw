@@ -1,0 +1,29 @@
+[program:openvpn]
+command=ovpn_run
+stdout_logfile=/var/log/openvpn.log
+autostart=true
+autorestart=true
+startsecs=5
+priority=1
+stopasgroup=true
+killasgroup=true
+
+[program:rfw]
+command=rfw -v
+stdout_logfile=/var/log/rfw.log
+autostart=true
+autorestart=true
+startsecs=5
+priority=1
+stopasgroup=true
+killasgroup=true
+
+[program:resty]
+command=/usr/local/openresty/nginx/sbin/nginx -c /usr/local/openresty/nginx/conf/nginx.conf
+stdout_logfile=/var/log/nginx/error.log
+autostart=true
+autorestart=true
+startsecs=5
+priority=1
+stopasgroup=true
+killasgroup=true

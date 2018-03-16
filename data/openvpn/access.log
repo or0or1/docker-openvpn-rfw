@@ -1,0 +1,473 @@
+Fri Mar 16 13:54:13 2018 us=595327 Current Parameter Settings:
+Fri Mar 16 13:54:13 2018 us=595387   config = '/etc/openvpn/openvpn.conf'
+Fri Mar 16 13:54:13 2018 us=595400   mode = 1
+Fri Mar 16 13:54:13 2018 us=595406   persist_config = DISABLED
+Fri Mar 16 13:54:13 2018 us=595411   persist_mode = 1
+Fri Mar 16 13:54:13 2018 us=595415   show_ciphers = DISABLED
+Fri Mar 16 13:54:13 2018 us=595420   show_digests = DISABLED
+Fri Mar 16 13:54:13 2018 us=595425   show_engines = DISABLED
+Fri Mar 16 13:54:13 2018 us=595430   genkey = DISABLED
+Fri Mar 16 13:54:13 2018 us=595435   key_pass_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595440   show_tls_ciphers = DISABLED
+Fri Mar 16 13:54:13 2018 us=595445 Connection profiles [default]:
+Fri Mar 16 13:54:13 2018 us=595450   proto = udp
+Fri Mar 16 13:54:13 2018 us=595455   local = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595460   local_port = 1194
+Fri Mar 16 13:54:13 2018 us=595465   remote = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595470   remote_port = 1194
+Fri Mar 16 13:54:13 2018 us=595474   remote_float = DISABLED
+Fri Mar 16 13:54:13 2018 us=595479   bind_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=595484   bind_local = ENABLED
+Fri Mar 16 13:54:13 2018 us=595489   connect_retry_seconds = 5
+Fri Mar 16 13:54:13 2018 us=595494   connect_timeout = 10
+Fri Mar 16 13:54:13 2018 us=595499   connect_retry_max = 0
+Fri Mar 16 13:54:13 2018 us=595504   socks_proxy_server = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595509   socks_proxy_port = 0
+Fri Mar 16 13:54:13 2018 us=595513   socks_proxy_retry = DISABLED
+Fri Mar 16 13:54:13 2018 us=595519   tun_mtu = 1500
+Fri Mar 16 13:54:13 2018 us=595523   tun_mtu_defined = ENABLED
+Fri Mar 16 13:54:13 2018 us=595528   link_mtu = 1500
+Fri Mar 16 13:54:13 2018 us=595533   link_mtu_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=595538   tun_mtu_extra = 0
+Fri Mar 16 13:54:13 2018 us=595543   tun_mtu_extra_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=595548   mtu_discover_type = -1
+Fri Mar 16 13:54:13 2018 us=595553   fragment = 0
+Fri Mar 16 13:54:13 2018 us=595558   mssfix = 1450
+Fri Mar 16 13:54:13 2018 us=595563   explicit_exit_notification = 0
+Fri Mar 16 13:54:13 2018 us=595568 Connection profiles END
+Fri Mar 16 13:54:13 2018 us=595573   remote_random = DISABLED
+Fri Mar 16 13:54:13 2018 us=595577   ipchange = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595582   dev = 'tun0'
+Fri Mar 16 13:54:13 2018 us=595587   dev_type = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595592   dev_node = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595596   lladdr = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595601   topology = 1
+Fri Mar 16 13:54:13 2018 us=595606   tun_ipv6 = DISABLED
+Fri Mar 16 13:54:13 2018 us=595611   ifconfig_local = '192.167.255.1'
+Fri Mar 16 13:54:13 2018 us=595616   ifconfig_remote_netmask = '192.167.255.2'
+Fri Mar 16 13:54:13 2018 us=595621   ifconfig_noexec = DISABLED
+Fri Mar 16 13:54:13 2018 us=595626   ifconfig_nowarn = DISABLED
+Fri Mar 16 13:54:13 2018 us=595630   ifconfig_ipv6_local = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595635   ifconfig_ipv6_netbits = 0
+Fri Mar 16 13:54:13 2018 us=595640   ifconfig_ipv6_remote = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595645   shaper = 0
+Fri Mar 16 13:54:13 2018 us=595650   mtu_test = 0
+Fri Mar 16 13:54:13 2018 us=595655   mlock = DISABLED
+Fri Mar 16 13:54:13 2018 us=595660   keepalive_ping = 10
+Fri Mar 16 13:54:13 2018 us=595665   keepalive_timeout = 60
+Fri Mar 16 13:54:13 2018 us=595669   inactivity_timeout = 0
+Fri Mar 16 13:54:13 2018 us=595674   ping_send_timeout = 10
+Fri Mar 16 13:54:13 2018 us=595679   ping_rec_timeout = 120
+Fri Mar 16 13:54:13 2018 us=595684   ping_rec_timeout_action = 2
+Fri Mar 16 13:54:13 2018 us=595689   ping_timer_remote = DISABLED
+Fri Mar 16 13:54:13 2018 us=595694   remap_sigusr1 = 0
+Fri Mar 16 13:54:13 2018 us=595699   persist_tun = ENABLED
+Fri Mar 16 13:54:13 2018 us=595703   persist_local_ip = DISABLED
+Fri Mar 16 13:54:13 2018 us=595708   persist_remote_ip = DISABLED
+Fri Mar 16 13:54:13 2018 us=595713   persist_key = ENABLED
+Fri Mar 16 13:54:13 2018 us=595717   passtos = DISABLED
+Fri Mar 16 13:54:13 2018 us=595722   resolve_retry_seconds = 1000000000
+Fri Mar 16 13:54:13 2018 us=595731   username = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595737   groupname = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595742   chroot_dir = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595746   cd_dir = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595751   writepid = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595756   up_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595761   down_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595766   down_pre = DISABLED
+Fri Mar 16 13:54:13 2018 us=595770   up_restart = DISABLED
+Fri Mar 16 13:54:13 2018 us=595775   up_delay = DISABLED
+Fri Mar 16 13:54:13 2018 us=595780   daemon = DISABLED
+Fri Mar 16 13:54:13 2018 us=595785   inetd = 0
+Fri Mar 16 13:54:13 2018 us=595789   log = ENABLED
+Fri Mar 16 13:54:13 2018 us=595794   suppress_timestamps = DISABLED
+Fri Mar 16 13:54:13 2018 us=595799   nice = 0
+Fri Mar 16 13:54:13 2018 us=595804   verbosity = 5
+Fri Mar 16 13:54:13 2018 us=595809   mute = 0
+Fri Mar 16 13:54:13 2018 us=595814   gremlin = 0
+Fri Mar 16 13:54:13 2018 us=595818   status_file = '/tmp/openvpn-status.log'
+Fri Mar 16 13:54:13 2018 us=595823   status_file_version = 1
+Fri Mar 16 13:54:13 2018 us=595828   status_file_update_freq = 60
+Fri Mar 16 13:54:13 2018 us=595833   occ = ENABLED
+Fri Mar 16 13:54:13 2018 us=595838   rcvbuf = 65536
+Fri Mar 16 13:54:13 2018 us=595843   sndbuf = 65536
+Fri Mar 16 13:54:13 2018 us=595848   mark = 0
+Fri Mar 16 13:54:13 2018 us=595852   sockflags = 0
+Fri Mar 16 13:54:13 2018 us=595857   fast_io = DISABLED
+Fri Mar 16 13:54:13 2018 us=595862   lzo = 0
+Fri Mar 16 13:54:13 2018 us=595867   route_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595872   route_default_gateway = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=595876   route_default_metric = 0
+Fri Mar 16 13:54:13 2018 us=595882   route_noexec = DISABLED
+Fri Mar 16 13:54:13 2018 us=595887   route_delay = 0
+Fri Mar 16 13:54:13 2018 us=595892   route_delay_window = 30
+Fri Mar 16 13:54:13 2018 us=595897   route_delay_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=595902   route_nopull = DISABLED
+Fri Mar 16 13:54:13 2018 us=595906   route_gateway_via_dhcp = DISABLED
+Fri Mar 16 13:54:13 2018 us=595911   max_routes = 100
+Fri Mar 16 13:54:13 2018 us=595916   allow_pull_fqdn = DISABLED
+Fri Mar 16 13:54:13 2018 us=595922   route 192.167.254.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595927   route 192.167.0.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595932   route 192.167.1.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595937   route 192.167.2.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595942   route 192.167.3.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595947   route 192.167.4.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595952   route 192.167.5.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595957   route 192.167.6.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595962   route 192.167.7.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595967   route 192.167.8.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595972   route 192.167.9.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595978   route 192.167.10.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595983   route 192.167.11.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595988   route 192.167.12.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595993   route 192.167.13.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=595998   route 192.167.14.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596003   route 192.167.15.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596011   route 192.167.16.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596017   route 192.167.17.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596022   route 192.167.18.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596027   route 192.167.19.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596031   route 192.167.20.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596036   route 192.167.21.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596041   route 192.167.22.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596050   route 192.167.23.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596055   route 192.167.24.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596061   route 192.167.25.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596066   route 192.167.26.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596071   route 192.167.27.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596076   route 192.167.28.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596081   route 192.167.29.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596085   route 192.167.30.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596090   route 192.167.31.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596095   route 192.167.32.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596100   route 192.167.33.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596105   route 192.167.34.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596110   route 192.167.35.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596115   route 192.167.36.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596120   route 192.167.37.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596125   route 192.167.38.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596130   route 192.167.39.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596135   route 192.167.40.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596140   route 192.167.41.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596145   route 192.167.42.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596150   route 192.167.43.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596155   route 192.167.44.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596160   route 192.167.45.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596165   route 192.167.46.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596170   route 192.167.47.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596175   route 192.167.48.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596180   route 192.167.49.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596185   route 192.167.50.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596190   route 192.167.51.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596195   route 192.167.52.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596200   route 192.167.53.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596205   route 192.167.54.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596210   route 192.167.55.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596215   route 192.167.56.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596220   route 192.167.57.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596225   route 192.167.58.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596230   route 192.167.59.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596235   route 192.167.60.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596240   route 192.167.61.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596245   route 192.167.62.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596250   route 192.167.63.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596255   route 192.167.64.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596260   route 192.167.65.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596265   route 192.167.66.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596270   route 192.167.67.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596275   route 192.167.68.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596280   route 192.167.69.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596285   route 192.167.70.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596290   route 192.167.71.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596295   route 192.167.72.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596300   route 192.167.73.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596305   route 192.167.74.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596312   route 192.167.75.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596317   route 192.167.76.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596322   route 192.167.77.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596328   route 192.167.78.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596333   route 192.167.79.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596338   route 192.167.80.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596343   route 192.167.255.0/255.255.255.0/nil/nil
+Fri Mar 16 13:54:13 2018 us=596348   management_addr = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596353   management_port = 0
+Fri Mar 16 13:54:13 2018 us=596358   management_user_pass = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596363   management_log_history_cache = 250
+Fri Mar 16 13:54:13 2018 us=596386   management_echo_buffer_size = 100
+Fri Mar 16 13:54:13 2018 us=596392   management_write_peer_info_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596397   management_client_user = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596402   management_client_group = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596407   management_flags = 0
+Fri Mar 16 13:54:13 2018 us=596417   plugin[0] /usr/local/lib/libopenvpn-mysql-auth.so '[/usr/local/lib/libopenvpn-mysql-auth.so] [-c] [/etc/openvpn/mysql-auth.conf]'
+Fri Mar 16 13:54:13 2018 us=596423   shared_secret_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596429   key_direction = 1
+Fri Mar 16 13:54:13 2018 us=596434   ciphername_defined = ENABLED
+Fri Mar 16 13:54:13 2018 us=596439   ciphername = 'BF-CBC'
+Fri Mar 16 13:54:13 2018 us=596444   authname_defined = ENABLED
+Fri Mar 16 13:54:13 2018 us=596449   authname = 'SHA1'
+Fri Mar 16 13:54:13 2018 us=596454   prng_hash = 'SHA1'
+Fri Mar 16 13:54:13 2018 us=596459   prng_nonce_secret_len = 16
+Fri Mar 16 13:54:13 2018 us=596464   keysize = 0
+Fri Mar 16 13:54:13 2018 us=596469   engine = DISABLED
+Fri Mar 16 13:54:13 2018 us=596474   replay = ENABLED
+Fri Mar 16 13:54:13 2018 us=596479   mute_replay_warnings = DISABLED
+Fri Mar 16 13:54:13 2018 us=596484   replay_window = 64
+Fri Mar 16 13:54:13 2018 us=596489   replay_time = 15
+Fri Mar 16 13:54:13 2018 us=596494   packet_id_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596498   use_iv = ENABLED
+Fri Mar 16 13:54:13 2018 us=596503   test_crypto = DISABLED
+Fri Mar 16 13:54:13 2018 us=596508   tls_server = ENABLED
+Fri Mar 16 13:54:13 2018 us=596513   tls_client = DISABLED
+Fri Mar 16 13:54:13 2018 us=596518   key_method = 2
+Fri Mar 16 13:54:13 2018 us=596523   ca_file = '/etc/openvpn/pki/ca.crt'
+Fri Mar 16 13:54:13 2018 us=596528   ca_path = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596662   dh_file = '/etc/openvpn/pki/dh.pem'
+Fri Mar 16 13:54:13 2018 us=596674   cert_file = '/etc/openvpn/pki/issued/vpn.test.com.crt'
+Fri Mar 16 13:54:13 2018 us=596680   priv_key_file = '/etc/openvpn/pki/private/vpn.test.com.key'
+Fri Mar 16 13:54:13 2018 us=596685   pkcs12_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596690   cipher_list = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596695   tls_verify = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596700   tls_export_cert = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596705   verify_x509_type = 0
+Fri Mar 16 13:54:13 2018 us=596710   verify_x509_name = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596715   crl_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=596720   ns_cert_type = 0
+Fri Mar 16 13:54:13 2018 us=596725   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596730   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596735   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596740   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596745   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596749   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596755   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596760   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596764   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596769   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596774   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596779   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596789   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596795   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596800   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596805   remote_cert_ku[i] = 0
+Fri Mar 16 13:54:13 2018 us=596810   remote_cert_eku = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=597455   ssl_flags = 3
+Fri Mar 16 13:54:13 2018 us=597470   tls_timeout = 2
+Fri Mar 16 13:54:13 2018 us=597476   renegotiate_bytes = 0
+Fri Mar 16 13:54:13 2018 us=597481   renegotiate_packets = 0
+Fri Mar 16 13:54:13 2018 us=597486   renegotiate_seconds = 3600
+Fri Mar 16 13:54:13 2018 us=597491   handshake_window = 60
+Fri Mar 16 13:54:13 2018 us=597496   transition_window = 3600
+Fri Mar 16 13:54:13 2018 us=597501   single_session = DISABLED
+Fri Mar 16 13:54:13 2018 us=597507   push_peer_info = DISABLED
+Fri Mar 16 13:54:13 2018 us=597512   tls_exit = DISABLED
+Fri Mar 16 13:54:13 2018 us=597517   tls_auth_file = '/etc/openvpn/pki/ta.key'
+Fri Mar 16 13:54:13 2018 us=597522   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597527   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597532   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597537   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597542   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597547   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597551   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597556   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597561   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597566   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597570   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597575   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597580   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597585   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597589   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597594   pkcs11_protected_authentication = DISABLED
+Fri Mar 16 13:54:13 2018 us=597600   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597605   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597610   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597615   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597620   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597625   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597630   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597641   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597646   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597651   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597656   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597661   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597666   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597671   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597676   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597681   pkcs11_private_mode = 00000000
+Fri Mar 16 13:54:13 2018 us=597686   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597691   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597696   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597701   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597706   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597769   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597787   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597793   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597798   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597803   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597808   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597812   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597823   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597828   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597833   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597838   pkcs11_cert_private = DISABLED
+Fri Mar 16 13:54:13 2018 us=597843   pkcs11_pin_cache_period = -1
+Fri Mar 16 13:54:13 2018 us=597848   pkcs11_id = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=597853   pkcs11_id_management = DISABLED
+Fri Mar 16 13:54:13 2018 us=597859   server_network = 192.167.255.0
+Fri Mar 16 13:54:13 2018 us=597865   server_netmask = 255.255.255.0
+Fri Mar 16 13:54:13 2018 us=597871   server_network_ipv6 = ::
+Fri Mar 16 13:54:13 2018 us=597876   server_netbits_ipv6 = 0
+Fri Mar 16 13:54:13 2018 us=597882   server_bridge_ip = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=597887   server_bridge_netmask = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=597893   server_bridge_pool_start = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=597898   server_bridge_pool_end = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=597903   push_entry = 'dhcp-option DNS 114.114.114.114'
+Fri Mar 16 13:54:13 2018 us=597908   push_entry = 'dhcp-option DNS 223.6.6.6'
+Fri Mar 16 13:54:13 2018 us=597913   push_entry = 'dhcp-option DNS 8.8.4.4'
+Fri Mar 16 13:54:13 2018 us=597919   push_entry = 'dhcp-option DNS 8.8.8.8'
+Fri Mar 16 13:54:13 2018 us=597924   push_entry = 'route 192.167.255.1'
+Fri Mar 16 13:54:13 2018 us=597929   push_entry = 'topology net30'
+Fri Mar 16 13:54:13 2018 us=597933   push_entry = 'ping 10'
+Fri Mar 16 13:54:13 2018 us=597938   push_entry = 'ping-restart 60'
+Fri Mar 16 13:54:13 2018 us=597943   ifconfig_pool_defined = ENABLED
+Fri Mar 16 13:54:13 2018 us=597949   ifconfig_pool_start = 192.167.255.4
+Fri Mar 16 13:54:13 2018 us=597955   ifconfig_pool_end = 192.167.255.251
+Fri Mar 16 13:54:13 2018 us=597960   ifconfig_pool_netmask = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=597965   ifconfig_pool_persist_filename = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=597970   ifconfig_pool_persist_refresh_freq = 600
+Fri Mar 16 13:54:13 2018 us=597975   ifconfig_ipv6_pool_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=597981   ifconfig_ipv6_pool_base = ::
+Fri Mar 16 13:54:13 2018 us=597986   ifconfig_ipv6_pool_netbits = 0
+Fri Mar 16 13:54:13 2018 us=597991   n_bcast_buf = 256
+Fri Mar 16 13:54:13 2018 us=597996   tcp_queue_limit = 64
+Fri Mar 16 13:54:13 2018 us=598001   real_hash_size = 256
+Fri Mar 16 13:54:13 2018 us=598006   virtual_hash_size = 256
+Fri Mar 16 13:54:13 2018 us=598011   client_connect_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598016   learn_address_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598021   client_disconnect_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598026   client_config_dir = '/etc/openvpn/ccd'
+Fri Mar 16 13:54:13 2018 us=598032   ccd_exclusive = DISABLED
+Fri Mar 16 13:54:13 2018 us=598037   tmp_dir = '/tmp'
+Fri Mar 16 13:54:13 2018 us=598042   push_ifconfig_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=598047   push_ifconfig_local = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=598053   push_ifconfig_remote_netmask = 0.0.0.0
+Fri Mar 16 13:54:13 2018 us=598058   push_ifconfig_ipv6_defined = DISABLED
+Fri Mar 16 13:54:13 2018 us=598063   push_ifconfig_ipv6_local = ::/0
+Fri Mar 16 13:54:13 2018 us=598068   push_ifconfig_ipv6_remote = ::
+Fri Mar 16 13:54:13 2018 us=598073   enable_c2c = DISABLED
+Fri Mar 16 13:54:13 2018 us=598078   duplicate_cn = ENABLED
+Fri Mar 16 13:54:13 2018 us=598083   cf_max = 0
+Fri Mar 16 13:54:13 2018 us=598088   cf_per = 0
+Fri Mar 16 13:54:13 2018 us=598093   max_clients = 20
+Fri Mar 16 13:54:13 2018 us=598098   max_routes_per_client = 256
+Fri Mar 16 13:54:13 2018 us=598103   auth_user_pass_verify_script = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598108   auth_user_pass_verify_script_via_file = DISABLED
+Fri Mar 16 13:54:13 2018 us=598113   port_share_host = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598118   port_share_port = 0
+Fri Mar 16 13:54:13 2018 us=598123   client = DISABLED
+Fri Mar 16 13:54:13 2018 us=598128   pull = DISABLED
+Fri Mar 16 13:54:13 2018 us=598477   auth_user_pass_file = '[UNDEF]'
+Fri Mar 16 13:54:13 2018 us=598500 OpenVPN 2.3.4 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Jun 26 2017
+Fri Mar 16 13:54:13 2018 us=598513 library versions: OpenSSL 1.0.1t  3 May 2016, LZO 2.08
+Fri Mar 16 13:54:13 2018 us=598587 WARNING: using --duplicate-cn and --client-config-dir together is probably not what you want
+Fri Mar 16 13:54:13 2018 us=603648 PLUGIN_INIT: POST /usr/local/lib/libopenvpn-mysql-auth.so '[/usr/local/lib/libopenvpn-mysql-auth.so] [-c] [/etc/openvpn/mysql-auth.conf]' intercepted=PLUGIN_AUTH_USER_PASS_VERIFY|PLUGIN_CLIENT_CONNECT|PLUGIN_CLIENT_DISCONNECT 
+Fri Mar 16 13:54:13 2018 us=647663 Diffie-Hellman initialized with 2048 bit key
+Fri Mar 16 13:54:13 2018 us=647697 WARNING: POTENTIALLY DANGEROUS OPTION --client-cert-not-required may accept clients which do not present a certificate
+Fri Mar 16 13:54:13 2018 us=647989 Control Channel Authentication: using '/etc/openvpn/pki/ta.key' as a OpenVPN static key file
+Fri Mar 16 13:54:13 2018 us=648005 Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Fri Mar 16 13:54:13 2018 us=648012 Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Fri Mar 16 13:54:13 2018 us=648023 TLS-Auth MTU parms [ L:1541 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Fri Mar 16 13:54:13 2018 us=648041 Socket Buffers: R=[212992->131072] S=[212992->131072]
+Fri Mar 16 13:54:13 2018 us=648145 ROUTE_GATEWAY 172.23.0.1/255.255.0.0 IFACE=eth0 HWADDR=02:42:ac:17:00:02
+Fri Mar 16 13:54:13 2018 us=649644 TUN/TAP device tun0 opened
+Fri Mar 16 13:54:13 2018 us=649667 TUN/TAP TX queue length set to 100
+Fri Mar 16 13:54:13 2018 us=649679 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Mar 16 13:54:13 2018 us=649697 /sbin/ip link set dev tun0 up mtu 1500
+Fri Mar 16 13:54:13 2018 us=652846 /sbin/ip addr add dev tun0 local 192.167.255.1 peer 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=653643 /sbin/ip route add 192.167.254.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=654337 /sbin/ip route add 192.167.0.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=655036 /sbin/ip route add 192.167.1.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=655731 /sbin/ip route add 192.167.2.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=656419 /sbin/ip route add 192.167.3.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=657137 /sbin/ip route add 192.167.4.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=657882 /sbin/ip route add 192.167.5.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=658585 /sbin/ip route add 192.167.6.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=659186 /sbin/ip route add 192.167.7.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=659802 /sbin/ip route add 192.167.8.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=660419 /sbin/ip route add 192.167.9.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=661050 /sbin/ip route add 192.167.10.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=662152 /sbin/ip route add 192.167.11.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=662792 /sbin/ip route add 192.167.12.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=663416 /sbin/ip route add 192.167.13.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=664017 /sbin/ip route add 192.167.14.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=664699 /sbin/ip route add 192.167.15.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=668976 /sbin/ip route add 192.167.16.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=673088 /sbin/ip route add 192.167.17.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=674968 /sbin/ip route add 192.167.18.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=680449 /sbin/ip route add 192.167.19.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=681343 /sbin/ip route add 192.167.20.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=683749 /sbin/ip route add 192.167.21.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=685841 /sbin/ip route add 192.167.22.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=687455 /sbin/ip route add 192.167.23.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=688405 /sbin/ip route add 192.167.24.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=695000 /sbin/ip route add 192.167.25.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=697843 /sbin/ip route add 192.167.26.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=699052 /sbin/ip route add 192.167.27.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=701470 /sbin/ip route add 192.167.28.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=703755 /sbin/ip route add 192.167.29.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=705640 /sbin/ip route add 192.167.30.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=707305 /sbin/ip route add 192.167.31.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=709101 /sbin/ip route add 192.167.32.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=711753 /sbin/ip route add 192.167.33.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=713894 /sbin/ip route add 192.167.34.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=715991 /sbin/ip route add 192.167.35.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=718326 /sbin/ip route add 192.167.36.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=720736 /sbin/ip route add 192.167.37.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=722525 /sbin/ip route add 192.167.38.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=726006 /sbin/ip route add 192.167.39.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=728897 /sbin/ip route add 192.167.40.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=729826 /sbin/ip route add 192.167.41.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=730438 /sbin/ip route add 192.167.42.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=731035 /sbin/ip route add 192.167.43.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=731651 /sbin/ip route add 192.167.44.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=732242 /sbin/ip route add 192.167.45.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=732875 /sbin/ip route add 192.167.46.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=733480 /sbin/ip route add 192.167.47.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=734071 /sbin/ip route add 192.167.48.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=734691 /sbin/ip route add 192.167.49.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=735291 /sbin/ip route add 192.167.50.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=735904 /sbin/ip route add 192.167.51.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=736517 /sbin/ip route add 192.167.52.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=737176 /sbin/ip route add 192.167.53.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=737789 /sbin/ip route add 192.167.54.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=738389 /sbin/ip route add 192.167.55.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=738977 /sbin/ip route add 192.167.56.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=739582 /sbin/ip route add 192.167.57.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=740177 /sbin/ip route add 192.167.58.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=740812 /sbin/ip route add 192.167.59.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=741416 /sbin/ip route add 192.167.60.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=742016 /sbin/ip route add 192.167.61.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=742626 /sbin/ip route add 192.167.62.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=743219 /sbin/ip route add 192.167.63.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=743828 /sbin/ip route add 192.167.64.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=744438 /sbin/ip route add 192.167.65.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=745106 /sbin/ip route add 192.167.66.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=745716 /sbin/ip route add 192.167.67.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=746304 /sbin/ip route add 192.167.68.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=746912 /sbin/ip route add 192.167.69.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=747519 /sbin/ip route add 192.167.70.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=748114 /sbin/ip route add 192.167.71.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=748747 /sbin/ip route add 192.167.72.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=749338 /sbin/ip route add 192.167.73.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=749951 /sbin/ip route add 192.167.74.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=750560 /sbin/ip route add 192.167.75.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=751152 /sbin/ip route add 192.167.76.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=751764 /sbin/ip route add 192.167.77.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=752354 /sbin/ip route add 192.167.78.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=753044 /sbin/ip route add 192.167.79.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=753661 /sbin/ip route add 192.167.80.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=754254 /sbin/ip route add 192.167.255.0/24 via 192.167.255.2
+Fri Mar 16 13:54:13 2018 us=754864 Data Channel MTU parms [ L:1541 D:1450 EF:41 EB:4 ET:0 EL:0 ]
+Fri Mar 16 13:54:13 2018 us=754892 UDPv4 link local (bound): [undef]
+Fri Mar 16 13:54:13 2018 us=754900 UDPv4 link remote: [undef]
+Fri Mar 16 13:54:13 2018 us=754910 MULTI: multi_init called, r=256 v=256
+Fri Mar 16 13:54:13 2018 us=754940 IFCONFIG POOL: base=192.167.255.4 size=62, ipv6=0
+Fri Mar 16 13:54:13 2018 us=754961 Initialization Sequence Completed

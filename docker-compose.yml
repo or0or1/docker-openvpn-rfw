@@ -1,0 +1,37 @@
+version: '2'
+services:
+  openvpn-data:
+    image: busybox
+    container_name: openvpn-data
+    volumes:
+      - ./data/openvpn:/etc/openvpn:rw
+
+  openvpn-mysql:
+    cap_add:
+     - NET_ADMIN
+    build: .
+    image: openvpn-mysql:1.0.8
+    #image: openvpn-mysql:1.0.0
+    networks:
+      - "vpn"
+    container_name: openvpn-mysql
+    mem_limit: 1024M
+    ports:
+      - "1194:1194/udp"
+      - "7393:7393"
+      - "8001:8080"
+    restart: always
+    volumes_from:
+      - "openvpn-data"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+        #- ./conf/rfw:/etc/rfw:rw 
+        #- ./conf/supervisor/all.conf:/etc/supervisor/conf.d/all.conf:ro
+        #- ./conf/resty/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf:ro
+        #- ./conf/resty/resty/:/usr/local/openresty/nginx/conf/resty/:ro
+    #environment:
+    #  - dbhost=192.168.1.13
+networks:
+  vpn:
+    driver: bridge
+
