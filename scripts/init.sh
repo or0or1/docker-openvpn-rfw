@@ -8,5 +8,5 @@ cp conf/openvpn/openvpn.conf data/openvpn/
 
 sh ./done
 
-docker-compose  exec openvpn-mysql easyrsa build-client-full  testasdfghjkl nopass
+docker-compose  exec openvpn-mysql easyrsa build-client-full  testasdfghjkl 
 
