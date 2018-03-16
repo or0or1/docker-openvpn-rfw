@@ -10,7 +10,7 @@ ip="192.168.1.77"
 port="9111"
 url="http://${ip}:${port}/vpn/query"
 data={}
-data["key"]="wrxdyuioijhguomnjpljjjjjjjjxhiop9ikm"
+data["key"]="wrxdyuihguomnjpljjjjjjjjxhiop9ikm"
 data["method"]="query"
 data["dbbase"]="accounts"
 #data["sql"]="select a.clientip, b.permitip  from vpn_inf as a, vpn_permit_ips as b where a.uid = b.uid"
